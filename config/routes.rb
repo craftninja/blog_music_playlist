@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get '/song/:id' => 'song#show'
   get '/song/:id/edit' => 'song#edit'
   put '/song/:id' => 'song#update'
+  delete '/song/:id' => 'song#destroy'
 
 end
